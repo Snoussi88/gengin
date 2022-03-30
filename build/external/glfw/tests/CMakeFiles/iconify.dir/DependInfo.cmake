@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj" "gcc" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj.d"
-  "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj" "gcc" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj.d"
-  "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/iconify.c" "external/glfw/tests/CMakeFiles/iconify.dir/iconify.c.obj" "gcc" "external/glfw/tests/CMakeFiles/iconify.dir/iconify.c.obj.d"
+  "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj" "gcc" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj.d"
+  "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj" "gcc" "external/glfw/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj.d"
+  "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/iconify.c" "external/glfw/tests/CMakeFiles/iconify.dir/iconify.c.obj" "gcc" "external/glfw/tests/CMakeFiles/iconify.dir/iconify.c.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

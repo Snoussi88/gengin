@@ -53,10 +53,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -224,14 +224,14 @@ external/glfw/tests/clean: external/glfw/tests/CMakeFiles/windows.dir/clean
 CMakeFiles/tutorial.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tutorial.dir\build.make CMakeFiles/tutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=93,94 "Built target tutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=93,94 "Built target tutorial"
 .PHONY : CMakeFiles/tutorial.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tutorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/tutorial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : CMakeFiles/tutorial.dir/rule
 
 # Convenience name for target.
@@ -250,14 +250,14 @@ CMakeFiles/tutorial.dir/clean:
 CMakeFiles/plane.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\plane.dir\build.make CMakeFiles/plane.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\plane.dir\build.make CMakeFiles/plane.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=73,74 "Built target plane"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=73,74 "Built target plane"
 .PHONY : CMakeFiles/plane.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/plane.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/plane.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : CMakeFiles/plane.dir/rule
 
 # Convenience name for target.
@@ -276,14 +276,14 @@ CMakeFiles/plane.dir/clean:
 external/glfw/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f external\glfw\CMakeFiles\uninstall.dir\build.make external/glfw/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\CMakeFiles\uninstall.dir\build.make external/glfw/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -302,14 +302,14 @@ external/glfw/CMakeFiles/uninstall.dir/clean:
 external/glfw/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/glfw/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/glfw/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=95 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=95 "Built target update_mappings"
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -328,14 +328,14 @@ external/glfw/src/CMakeFiles/update_mappings.dir/clean:
 external/glfw/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45 "Built target glfw"
 .PHONY : external/glfw/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -354,14 +354,14 @@ external/glfw/src/CMakeFiles/glfw.dir/clean:
 external/glfw/examples/CMakeFiles/boing.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=1,2 "Built target boing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=1,2 "Built target boing"
 .PHONY : external/glfw/examples/CMakeFiles/boing.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/boing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/boing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/boing.dir/rule
 
 # Convenience name for target.
@@ -380,14 +380,14 @@ external/glfw/examples/CMakeFiles/boing.dir/clean:
 external/glfw/examples/CMakeFiles/gears.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=34,35,36 "Built target gears"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=34,35,36 "Built target gears"
 .PHONY : external/glfw/examples/CMakeFiles/gears.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/gears.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/gears.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/gears.dir/rule
 
 # Convenience name for target.
@@ -406,14 +406,14 @@ external/glfw/examples/CMakeFiles/gears.dir/clean:
 external/glfw/examples/CMakeFiles/heightmap.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=49,50,51 "Built target heightmap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=49,50,51 "Built target heightmap"
 .PHONY : external/glfw/examples/CMakeFiles/heightmap.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/heightmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/heightmap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/heightmap.dir/rule
 
 # Convenience name for target.
@@ -432,14 +432,14 @@ external/glfw/examples/CMakeFiles/heightmap.dir/clean:
 external/glfw/examples/CMakeFiles/offscreen.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=65,66 "Built target offscreen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=65,66 "Built target offscreen"
 .PHONY : external/glfw/examples/CMakeFiles/offscreen.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/offscreen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/offscreen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/offscreen.dir/rule
 
 # Convenience name for target.
@@ -458,14 +458,14 @@ external/glfw/examples/CMakeFiles/offscreen.dir/clean:
 external/glfw/examples/CMakeFiles/particles.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=69,70,71,72 "Built target particles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=69,70,71,72 "Built target particles"
 .PHONY : external/glfw/examples/CMakeFiles/particles.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/particles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/particles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/particles.dir/rule
 
 # Convenience name for target.
@@ -484,14 +484,14 @@ external/glfw/examples/CMakeFiles/particles.dir/clean:
 external/glfw/examples/CMakeFiles/sharing.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=76,77,78 "Built target sharing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=76,77,78 "Built target sharing"
 .PHONY : external/glfw/examples/CMakeFiles/sharing.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/sharing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/sharing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/sharing.dir/rule
 
 # Convenience name for target.
@@ -510,14 +510,14 @@ external/glfw/examples/CMakeFiles/sharing.dir/clean:
 external/glfw/examples/CMakeFiles/simple.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=79,80 "Built target simple"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=79,80 "Built target simple"
 .PHONY : external/glfw/examples/CMakeFiles/simple.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/simple.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/simple.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/simple.dir/rule
 
 # Convenience name for target.
@@ -536,14 +536,14 @@ external/glfw/examples/CMakeFiles/simple.dir/clean:
 external/glfw/examples/CMakeFiles/splitview.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=81,82,83 "Built target splitview"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=81,82,83 "Built target splitview"
 .PHONY : external/glfw/examples/CMakeFiles/splitview.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/splitview.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/splitview.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/splitview.dir/rule
 
 # Convenience name for target.
@@ -562,14 +562,14 @@ external/glfw/examples/CMakeFiles/splitview.dir/clean:
 external/glfw/examples/CMakeFiles/wave.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=96,97 "Built target wave"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=96,97 "Built target wave"
 .PHONY : external/glfw/examples/CMakeFiles/wave.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/examples/CMakeFiles/wave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/wave.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/examples/CMakeFiles/wave.dir/rule
 
 # Convenience name for target.
@@ -588,14 +588,14 @@ external/glfw/examples/CMakeFiles/wave.dir/clean:
 external/glfw/tests/CMakeFiles/clipboard.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\clipboard.dir\build.make external/glfw/tests/CMakeFiles/clipboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\clipboard.dir\build.make external/glfw/tests/CMakeFiles/clipboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=23,24,25 "Built target clipboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=23,24,25 "Built target clipboard"
 .PHONY : external/glfw/tests/CMakeFiles/clipboard.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/clipboard.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/clipboard.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/clipboard.dir/rule
 
 # Convenience name for target.
@@ -614,14 +614,14 @@ external/glfw/tests/CMakeFiles/clipboard.dir/clean:
 external/glfw/tests/CMakeFiles/events.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\events.dir\build.make external/glfw/tests/CMakeFiles/events.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\events.dir\build.make external/glfw/tests/CMakeFiles/events.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=30,31 "Built target events"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=30,31 "Built target events"
 .PHONY : external/glfw/tests/CMakeFiles/events.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/events.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/events.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/events.dir/rule
 
 # Convenience name for target.
@@ -640,14 +640,14 @@ external/glfw/tests/CMakeFiles/events.dir/clean:
 external/glfw/tests/CMakeFiles/msaa.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\msaa.dir\build.make external/glfw/tests/CMakeFiles/msaa.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\msaa.dir\build.make external/glfw/tests/CMakeFiles/msaa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=63,64 "Built target msaa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=63,64 "Built target msaa"
 .PHONY : external/glfw/tests/CMakeFiles/msaa.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/msaa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/msaa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/msaa.dir/rule
 
 # Convenience name for target.
@@ -666,14 +666,14 @@ external/glfw/tests/CMakeFiles/msaa.dir/clean:
 external/glfw/tests/CMakeFiles/glfwinfo.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\glfwinfo.dir\build.make external/glfw/tests/CMakeFiles/glfwinfo.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\glfwinfo.dir\build.make external/glfw/tests/CMakeFiles/glfwinfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=46,47,48 "Built target glfwinfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=46,47,48 "Built target glfwinfo"
 .PHONY : external/glfw/tests/CMakeFiles/glfwinfo.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/glfwinfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/glfwinfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/glfwinfo.dir/rule
 
 # Convenience name for target.
@@ -692,14 +692,14 @@ external/glfw/tests/CMakeFiles/glfwinfo.dir/clean:
 external/glfw/tests/CMakeFiles/iconify.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\iconify.dir\build.make external/glfw/tests/CMakeFiles/iconify.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\iconify.dir\build.make external/glfw/tests/CMakeFiles/iconify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=54,55 "Built target iconify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=54,55 "Built target iconify"
 .PHONY : external/glfw/tests/CMakeFiles/iconify.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/iconify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/iconify.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/iconify.dir/rule
 
 # Convenience name for target.
@@ -718,14 +718,14 @@ external/glfw/tests/CMakeFiles/iconify.dir/clean:
 external/glfw/tests/CMakeFiles/monitors.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\monitors.dir\build.make external/glfw/tests/CMakeFiles/monitors.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\monitors.dir\build.make external/glfw/tests/CMakeFiles/monitors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=60,61,62 "Built target monitors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=60,61,62 "Built target monitors"
 .PHONY : external/glfw/tests/CMakeFiles/monitors.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/monitors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/monitors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/monitors.dir/rule
 
 # Convenience name for target.
@@ -744,14 +744,14 @@ external/glfw/tests/CMakeFiles/monitors.dir/clean:
 external/glfw/tests/CMakeFiles/reopen.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\reopen.dir\build.make external/glfw/tests/CMakeFiles/reopen.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\reopen.dir\build.make external/glfw/tests/CMakeFiles/reopen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=75 "Built target reopen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=75 "Built target reopen"
 .PHONY : external/glfw/tests/CMakeFiles/reopen.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/reopen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/reopen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/reopen.dir/rule
 
 # Convenience name for target.
@@ -770,14 +770,14 @@ external/glfw/tests/CMakeFiles/reopen.dir/clean:
 external/glfw/tests/CMakeFiles/cursor.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\cursor.dir\build.make external/glfw/tests/CMakeFiles/cursor.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\cursor.dir\build.make external/glfw/tests/CMakeFiles/cursor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=26,27 "Built target cursor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=26,27 "Built target cursor"
 .PHONY : external/glfw/tests/CMakeFiles/cursor.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/cursor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/cursor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/cursor.dir/rule
 
 # Convenience name for target.
@@ -796,14 +796,14 @@ external/glfw/tests/CMakeFiles/cursor.dir/clean:
 external/glfw/tests/CMakeFiles/empty.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\empty.dir\build.make external/glfw/tests/CMakeFiles/empty.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\empty.dir\build.make external/glfw/tests/CMakeFiles/empty.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=28,29 "Built target empty"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=28,29 "Built target empty"
 .PHONY : external/glfw/tests/CMakeFiles/empty.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/empty.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/empty.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/empty.dir/rule
 
 # Convenience name for target.
@@ -822,14 +822,14 @@ external/glfw/tests/CMakeFiles/empty.dir/clean:
 external/glfw/tests/CMakeFiles/gamma.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\gamma.dir\build.make external/glfw/tests/CMakeFiles/gamma.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\gamma.dir\build.make external/glfw/tests/CMakeFiles/gamma.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=32,33 "Built target gamma"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=32,33 "Built target gamma"
 .PHONY : external/glfw/tests/CMakeFiles/gamma.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/gamma.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/gamma.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/gamma.dir/rule
 
 # Convenience name for target.
@@ -848,14 +848,14 @@ external/glfw/tests/CMakeFiles/gamma.dir/clean:
 external/glfw/tests/CMakeFiles/icon.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\icon.dir\build.make external/glfw/tests/CMakeFiles/icon.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\icon.dir\build.make external/glfw/tests/CMakeFiles/icon.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=52,53 "Built target icon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=52,53 "Built target icon"
 .PHONY : external/glfw/tests/CMakeFiles/icon.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/icon.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/icon.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/icon.dir/rule
 
 # Convenience name for target.
@@ -874,14 +874,14 @@ external/glfw/tests/CMakeFiles/icon.dir/clean:
 external/glfw/tests/CMakeFiles/inputlag.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\inputlag.dir\build.make external/glfw/tests/CMakeFiles/inputlag.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\inputlag.dir\build.make external/glfw/tests/CMakeFiles/inputlag.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=56,57 "Built target inputlag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=56,57 "Built target inputlag"
 .PHONY : external/glfw/tests/CMakeFiles/inputlag.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/inputlag.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/inputlag.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/inputlag.dir/rule
 
 # Convenience name for target.
@@ -900,14 +900,14 @@ external/glfw/tests/CMakeFiles/inputlag.dir/clean:
 external/glfw/tests/CMakeFiles/joysticks.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\joysticks.dir\build.make external/glfw/tests/CMakeFiles/joysticks.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\joysticks.dir\build.make external/glfw/tests/CMakeFiles/joysticks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=58,59 "Built target joysticks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=58,59 "Built target joysticks"
 .PHONY : external/glfw/tests/CMakeFiles/joysticks.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/joysticks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/joysticks.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/joysticks.dir/rule
 
 # Convenience name for target.
@@ -926,14 +926,14 @@ external/glfw/tests/CMakeFiles/joysticks.dir/clean:
 external/glfw/tests/CMakeFiles/opacity.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\opacity.dir\build.make external/glfw/tests/CMakeFiles/opacity.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\opacity.dir\build.make external/glfw/tests/CMakeFiles/opacity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=67,68 "Built target opacity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=67,68 "Built target opacity"
 .PHONY : external/glfw/tests/CMakeFiles/opacity.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/opacity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/opacity.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/opacity.dir/rule
 
 # Convenience name for target.
@@ -952,14 +952,14 @@ external/glfw/tests/CMakeFiles/opacity.dir/clean:
 external/glfw/tests/CMakeFiles/tearing.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\tearing.dir\build.make external/glfw/tests/CMakeFiles/tearing.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\tearing.dir\build.make external/glfw/tests/CMakeFiles/tearing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=84 "Built target tearing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=84 "Built target tearing"
 .PHONY : external/glfw/tests/CMakeFiles/tearing.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/tearing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/tearing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/tearing.dir/rule
 
 # Convenience name for target.
@@ -978,14 +978,14 @@ external/glfw/tests/CMakeFiles/tearing.dir/clean:
 external/glfw/tests/CMakeFiles/threads.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\threads.dir\build.make external/glfw/tests/CMakeFiles/threads.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\threads.dir\build.make external/glfw/tests/CMakeFiles/threads.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=85,86,87 "Built target threads"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=85,86,87 "Built target threads"
 .PHONY : external/glfw/tests/CMakeFiles/threads.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/threads.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/threads.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/threads.dir/rule
 
 # Convenience name for target.
@@ -1004,14 +1004,14 @@ external/glfw/tests/CMakeFiles/threads.dir/clean:
 external/glfw/tests/CMakeFiles/timeout.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\timeout.dir\build.make external/glfw/tests/CMakeFiles/timeout.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\timeout.dir\build.make external/glfw/tests/CMakeFiles/timeout.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=88,89 "Built target timeout"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=88,89 "Built target timeout"
 .PHONY : external/glfw/tests/CMakeFiles/timeout.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/timeout.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/timeout.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/timeout.dir/rule
 
 # Convenience name for target.
@@ -1030,14 +1030,14 @@ external/glfw/tests/CMakeFiles/timeout.dir/clean:
 external/glfw/tests/CMakeFiles/title.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\title.dir\build.make external/glfw/tests/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\title.dir\build.make external/glfw/tests/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=90 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=90 "Built target title"
 .PHONY : external/glfw/tests/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/title.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/title.dir/rule
 
 # Convenience name for target.
@@ -1056,14 +1056,14 @@ external/glfw/tests/CMakeFiles/title.dir/clean:
 external/glfw/tests/CMakeFiles/triangle-vulkan.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\triangle-vulkan.dir\build.make external/glfw/tests/CMakeFiles/triangle-vulkan.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\triangle-vulkan.dir\build.make external/glfw/tests/CMakeFiles/triangle-vulkan.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=91,92 "Built target triangle-vulkan"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=91,92 "Built target triangle-vulkan"
 .PHONY : external/glfw/tests/CMakeFiles/triangle-vulkan.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/triangle-vulkan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/triangle-vulkan.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/triangle-vulkan.dir/rule
 
 # Convenience name for target.
@@ -1082,14 +1082,14 @@ external/glfw/tests/CMakeFiles/triangle-vulkan.dir/clean:
 external/glfw/tests/CMakeFiles/windows.dir/all: external/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\windows.dir\build.make external/glfw/tests/CMakeFiles/windows.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\glfw\tests\CMakeFiles\windows.dir\build.make external/glfw/tests/CMakeFiles/windows.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=98,99,100 "Built target windows"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=98,99,100 "Built target windows"
 .PHONY : external/glfw/tests/CMakeFiles/windows.dir/all
 
 # Build rule for subdir invocation for target.
 external/glfw/tests/CMakeFiles/windows.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/tests/CMakeFiles/windows.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/glfw/tests/CMakeFiles/windows.dir/rule
 
 # Convenience name for target.
@@ -1108,14 +1108,14 @@ external/glfw/tests/CMakeFiles/windows.dir/clean:
 external/cglm/CMakeFiles/cglm.dir/all:
 	$(MAKE) $(MAKESILENT) -f external\cglm\CMakeFiles\cglm.dir\build.make external/cglm/CMakeFiles/cglm.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\cglm\CMakeFiles\cglm.dir\build.make external/cglm/CMakeFiles/cglm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target cglm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target cglm"
 .PHONY : external/cglm/CMakeFiles/cglm.dir/all
 
 # Build rule for subdir invocation for target.
 external/cglm/CMakeFiles/cglm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/cglm/CMakeFiles/cglm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : external/cglm/CMakeFiles/cglm.dir/rule
 
 # Convenience name for target.

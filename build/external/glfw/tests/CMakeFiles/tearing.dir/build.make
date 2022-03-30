@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 # Include any dependencies generated for this target.
 include external/glfw/tests/CMakeFiles/tearing.dir/depend.make
@@ -72,31 +72,31 @@ external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj: external/glfw/tests/CM
 external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj: external/glfw/tests/CMakeFiles/tearing.dir/includes_C.rsp
 external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj: ../external/glfw/tests/tearing.c
 external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj: external/glfw/tests/CMakeFiles/tearing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj -MF CMakeFiles\tearing.dir\tearing.c.obj.d -o CMakeFiles\tearing.dir\tearing.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests\tearing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj -MF CMakeFiles\tearing.dir\tearing.c.obj.d -o CMakeFiles\tearing.dir\tearing.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests\tearing.c
 
 external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tearing.dir/tearing.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests\tearing.c > CMakeFiles\tearing.dir\tearing.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests\tearing.c > CMakeFiles\tearing.dir\tearing.c.i
 
 external/glfw/tests/CMakeFiles/tearing.dir/tearing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tearing.dir/tearing.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests\tearing.c -o CMakeFiles\tearing.dir\tearing.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests\tearing.c -o CMakeFiles\tearing.dir\tearing.c.s
 
 external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: external/glfw/tests/CMakeFiles/tearing.dir/flags.make
 external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: external/glfw/tests/CMakeFiles/tearing.dir/includes_C.rsp
 external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: ../external/glfw/deps/glad_gl.c
 external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: external/glfw/tests/CMakeFiles/tearing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\deps\glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\deps\glad_gl.c
 
 external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tearing.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\deps\glad_gl.c > CMakeFiles\tearing.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\deps\glad_gl.c > CMakeFiles\tearing.dir\__\deps\glad_gl.c.i
 
 external/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tearing.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\deps\glad_gl.c -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\deps\glad_gl.c -o CMakeFiles\tearing.dir\__\deps\glad_gl.c.s
 
 # Object files for target tearing
 tearing_OBJECTS = \
@@ -113,18 +113,18 @@ external/glfw/tests/tearing.exe: external/glfw/src/libglfw3.a
 external/glfw/tests/tearing.exe: external/glfw/tests/CMakeFiles/tearing.dir/linklibs.rsp
 external/glfw/tests/tearing.exe: external/glfw/tests/CMakeFiles/tearing.dir/objects1.rsp
 external/glfw/tests/tearing.exe: external/glfw/tests/CMakeFiles/tearing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tearing.exe"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tearing.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tearing.exe"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tearing.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/glfw/tests/CMakeFiles/tearing.dir/build: external/glfw/tests/tearing.exe
 .PHONY : external/glfw/tests/CMakeFiles/tearing.dir/build
 
 external/glfw/tests/CMakeFiles/tearing.dir/clean:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\tearing.dir\cmake_clean.cmake
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\tearing.dir\cmake_clean.cmake
 .PHONY : external/glfw/tests/CMakeFiles/tearing.dir/clean
 
 external/glfw/tests/CMakeFiles/tearing.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\openGL C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests C:\Users\snous\OneDrive\Desktop\openGL\build C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests\CMakeFiles\tearing.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\gengin C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests C:\Users\snous\OneDrive\Desktop\gengin\build C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests\CMakeFiles\tearing.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : external/glfw/tests/CMakeFiles/tearing.dir/depend
 

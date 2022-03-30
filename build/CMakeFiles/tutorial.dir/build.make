@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tutorial.dir/depend.make
@@ -72,31 +72,31 @@ CMakeFiles/tutorial.dir/src/main.cpp.obj: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/src/main.cpp.obj: CMakeFiles/tutorial.dir/includes_CXX.rsp
 CMakeFiles/tutorial.dir/src/main.cpp.obj: ../src/main.cpp
 CMakeFiles/tutorial.dir/src/main.cpp.obj: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial.dir/src/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/src/main.cpp.obj -MF CMakeFiles\tutorial.dir\src\main.cpp.obj.d -o CMakeFiles\tutorial.dir\src\main.cpp.obj -c C:\Users\snous\OneDrive\Desktop\openGL\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tutorial.dir/src/main.cpp.obj -MF CMakeFiles\tutorial.dir\src\main.cpp.obj.d -o CMakeFiles\tutorial.dir\src\main.cpp.obj -c C:\Users\snous\OneDrive\Desktop\gengin\src\main.cpp
 
 CMakeFiles/tutorial.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial.dir/src/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\src\main.cpp > CMakeFiles\tutorial.dir\src\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\src\main.cpp > CMakeFiles\tutorial.dir\src\main.cpp.i
 
 CMakeFiles/tutorial.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial.dir/src/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\src\main.cpp -o CMakeFiles\tutorial.dir\src\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\src\main.cpp -o CMakeFiles\tutorial.dir\src\main.cpp.s
 
 CMakeFiles/tutorial.dir/src/glad.c.obj: CMakeFiles/tutorial.dir/flags.make
 CMakeFiles/tutorial.dir/src/glad.c.obj: CMakeFiles/tutorial.dir/includes_C.rsp
 CMakeFiles/tutorial.dir/src/glad.c.obj: ../src/glad.c
 CMakeFiles/tutorial.dir/src/glad.c.obj: CMakeFiles/tutorial.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tutorial.dir/src/glad.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tutorial.dir/src/glad.c.obj -MF CMakeFiles\tutorial.dir\src\glad.c.obj.d -o CMakeFiles\tutorial.dir\src\glad.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tutorial.dir/src/glad.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tutorial.dir/src/glad.c.obj -MF CMakeFiles\tutorial.dir\src\glad.c.obj.d -o CMakeFiles\tutorial.dir\src\glad.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\src\glad.c
 
 CMakeFiles/tutorial.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tutorial.dir/src/glad.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\src\glad.c > CMakeFiles\tutorial.dir\src\glad.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\src\glad.c > CMakeFiles\tutorial.dir\src\glad.c.i
 
 CMakeFiles/tutorial.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tutorial.dir/src/glad.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\src\glad.c -o CMakeFiles\tutorial.dir\src\glad.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\src\glad.c -o CMakeFiles\tutorial.dir\src\glad.c.s
 
 # Object files for target tutorial
 tutorial_OBJECTS = \
@@ -113,7 +113,7 @@ tutorial.exe: external/glfw/src/libglfw3.a
 tutorial.exe: CMakeFiles/tutorial.dir/linklibs.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/objects1.rsp
 tutorial.exe: CMakeFiles/tutorial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tutorial.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tutorial.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\tutorial.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles/tutorial.dir/clean:
 .PHONY : CMakeFiles/tutorial.dir/clean
 
 CMakeFiles/tutorial.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\openGL C:\Users\snous\OneDrive\Desktop\openGL C:\Users\snous\OneDrive\Desktop\openGL\build C:\Users\snous\OneDrive\Desktop\openGL\build C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles\tutorial.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\gengin C:\Users\snous\OneDrive\Desktop\gengin C:\Users\snous\OneDrive\Desktop\gengin\build C:\Users\snous\OneDrive\Desktop\gengin\build C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles\tutorial.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tutorial.dir/depend
 

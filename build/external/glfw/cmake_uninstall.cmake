@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/install_manifest.txt" files)
+file(READ "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

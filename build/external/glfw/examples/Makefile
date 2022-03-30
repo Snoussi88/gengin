@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/snous/OneDrive/Desktop/openGL/build/CPackSourceConfig.cmake
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/snous/OneDrive/Desktop/gengin/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\examples\\CMakeFiles\progress.marks
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\examples\\CMakeFiles\progress.marks
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/clean
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,22 +167,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/preinstall
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/preinstall
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/boing.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/boing.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/boing.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/boing.dir/rule
 
 # Convenience name for target.
@@ -191,12 +191,12 @@ boing: external/glfw/examples/CMakeFiles/boing.dir/rule
 
 # fast build rule for target.
 boing/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/build
 .PHONY : boing/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/gears.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/gears.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/gears.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/gears.dir/rule
 
 # Convenience name for target.
@@ -205,12 +205,12 @@ gears: external/glfw/examples/CMakeFiles/gears.dir/rule
 
 # fast build rule for target.
 gears/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/build
 .PHONY : gears/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/heightmap.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/heightmap.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/heightmap.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/heightmap.dir/rule
 
 # Convenience name for target.
@@ -219,12 +219,12 @@ heightmap: external/glfw/examples/CMakeFiles/heightmap.dir/rule
 
 # fast build rule for target.
 heightmap/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/build
 .PHONY : heightmap/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/offscreen.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/offscreen.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/offscreen.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/offscreen.dir/rule
 
 # Convenience name for target.
@@ -233,12 +233,12 @@ offscreen: external/glfw/examples/CMakeFiles/offscreen.dir/rule
 
 # fast build rule for target.
 offscreen/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/build
 .PHONY : offscreen/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/particles.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/particles.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/particles.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/particles.dir/rule
 
 # Convenience name for target.
@@ -247,12 +247,12 @@ particles: external/glfw/examples/CMakeFiles/particles.dir/rule
 
 # fast build rule for target.
 particles/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/build
 .PHONY : particles/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/sharing.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/sharing.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/sharing.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/sharing.dir/rule
 
 # Convenience name for target.
@@ -261,12 +261,12 @@ sharing: external/glfw/examples/CMakeFiles/sharing.dir/rule
 
 # fast build rule for target.
 sharing/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/build
 .PHONY : sharing/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/simple.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/simple.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/simple.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/simple.dir/rule
 
 # Convenience name for target.
@@ -275,12 +275,12 @@ simple: external/glfw/examples/CMakeFiles/simple.dir/rule
 
 # fast build rule for target.
 simple/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/build
 .PHONY : simple/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/splitview.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/splitview.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/splitview.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/splitview.dir/rule
 
 # Convenience name for target.
@@ -289,12 +289,12 @@ splitview: external/glfw/examples/CMakeFiles/splitview.dir/rule
 
 # fast build rule for target.
 splitview/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/build
 .PHONY : splitview/fast
 
 # Convenience name for target.
 external/glfw/examples/CMakeFiles/wave.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/wave.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/examples/CMakeFiles/wave.dir/rule
 .PHONY : external/glfw/examples/CMakeFiles/wave.dir/rule
 
 # Convenience name for target.
@@ -303,7 +303,7 @@ wave: external/glfw/examples/CMakeFiles/wave.dir/rule
 
 # fast build rule for target.
 wave/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/build
 .PHONY : wave/fast
 
 __/deps/getopt.obj: __/deps/getopt.c.obj
@@ -311,7 +311,7 @@ __/deps/getopt.obj: __/deps/getopt.c.obj
 
 # target to build an object file
 __/deps/getopt.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj
 .PHONY : __/deps/getopt.c.obj
 
 __/deps/getopt.i: __/deps/getopt.c.i
@@ -319,7 +319,7 @@ __/deps/getopt.i: __/deps/getopt.c.i
 
 # target to preprocess a source file
 __/deps/getopt.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.i
 .PHONY : __/deps/getopt.c.i
 
 __/deps/getopt.s: __/deps/getopt.c.s
@@ -327,7 +327,7 @@ __/deps/getopt.s: __/deps/getopt.c.s
 
 # target to generate assembly for a file
 __/deps/getopt.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.s
 .PHONY : __/deps/getopt.c.s
 
 __/deps/glad_gl.obj: __/deps/glad_gl.c.obj
@@ -335,15 +335,15 @@ __/deps/glad_gl.obj: __/deps/glad_gl.c.obj
 
 # target to build an object file
 __/deps/glad_gl.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj
 .PHONY : __/deps/glad_gl.c.obj
 
 __/deps/glad_gl.i: __/deps/glad_gl.c.i
@@ -351,15 +351,15 @@ __/deps/glad_gl.i: __/deps/glad_gl.c.i
 
 # target to preprocess a source file
 __/deps/glad_gl.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.i
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.i
 .PHONY : __/deps/glad_gl.c.i
 
 __/deps/glad_gl.s: __/deps/glad_gl.c.s
@@ -367,15 +367,15 @@ __/deps/glad_gl.s: __/deps/glad_gl.c.s
 
 # target to generate assembly for a file
 __/deps/glad_gl.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.s
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.s
 .PHONY : __/deps/glad_gl.c.s
 
 __/deps/tinycthread.obj: __/deps/tinycthread.c.obj
@@ -383,7 +383,7 @@ __/deps/tinycthread.obj: __/deps/tinycthread.c.obj
 
 # target to build an object file
 __/deps/tinycthread.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj
 .PHONY : __/deps/tinycthread.c.obj
 
 __/deps/tinycthread.i: __/deps/tinycthread.c.i
@@ -391,7 +391,7 @@ __/deps/tinycthread.i: __/deps/tinycthread.c.i
 
 # target to preprocess a source file
 __/deps/tinycthread.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.i
 .PHONY : __/deps/tinycthread.c.i
 
 __/deps/tinycthread.s: __/deps/tinycthread.c.s
@@ -399,7 +399,7 @@ __/deps/tinycthread.s: __/deps/tinycthread.c.s
 
 # target to generate assembly for a file
 __/deps/tinycthread.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.s
 .PHONY : __/deps/tinycthread.c.s
 
 boing.obj: boing.c.obj
@@ -407,7 +407,7 @@ boing.obj: boing.c.obj
 
 # target to build an object file
 boing.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/boing.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/boing.c.obj
 .PHONY : boing.c.obj
 
 boing.i: boing.c.i
@@ -415,7 +415,7 @@ boing.i: boing.c.i
 
 # target to preprocess a source file
 boing.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/boing.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/boing.c.i
 .PHONY : boing.c.i
 
 boing.s: boing.c.s
@@ -423,7 +423,7 @@ boing.s: boing.c.s
 
 # target to generate assembly for a file
 boing.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/boing.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/boing.c.s
 .PHONY : boing.c.s
 
 gears.obj: gears.c.obj
@@ -431,7 +431,7 @@ gears.obj: gears.c.obj
 
 # target to build an object file
 gears.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/gears.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/gears.c.obj
 .PHONY : gears.c.obj
 
 gears.i: gears.c.i
@@ -439,7 +439,7 @@ gears.i: gears.c.i
 
 # target to preprocess a source file
 gears.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/gears.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/gears.c.i
 .PHONY : gears.c.i
 
 gears.s: gears.c.s
@@ -447,7 +447,7 @@ gears.s: gears.c.s
 
 # target to generate assembly for a file
 gears.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/gears.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/gears.c.s
 .PHONY : gears.c.s
 
 glfw.obj: glfw.rc.obj
@@ -455,15 +455,15 @@ glfw.obj: glfw.rc.obj
 
 # target to build an object file
 glfw.rc.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/glfw.rc.obj
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\boing.dir\build.make external/glfw/examples/CMakeFiles/boing.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\gears.dir\build.make external/glfw/examples/CMakeFiles/gears.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/glfw.rc.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/glfw.rc.obj
 .PHONY : glfw.rc.obj
 
 heightmap.obj: heightmap.c.obj
@@ -471,7 +471,7 @@ heightmap.obj: heightmap.c.obj
 
 # target to build an object file
 heightmap.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj
 .PHONY : heightmap.c.obj
 
 heightmap.i: heightmap.c.i
@@ -479,7 +479,7 @@ heightmap.i: heightmap.c.i
 
 # target to preprocess a source file
 heightmap.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.i
 .PHONY : heightmap.c.i
 
 heightmap.s: heightmap.c.s
@@ -487,7 +487,7 @@ heightmap.s: heightmap.c.s
 
 # target to generate assembly for a file
 heightmap.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\heightmap.dir\build.make external/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.s
 .PHONY : heightmap.c.s
 
 offscreen.obj: offscreen.c.obj
@@ -495,7 +495,7 @@ offscreen.obj: offscreen.c.obj
 
 # target to build an object file
 offscreen.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.obj
 .PHONY : offscreen.c.obj
 
 offscreen.i: offscreen.c.i
@@ -503,7 +503,7 @@ offscreen.i: offscreen.c.i
 
 # target to preprocess a source file
 offscreen.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.i
 .PHONY : offscreen.c.i
 
 offscreen.s: offscreen.c.s
@@ -511,7 +511,7 @@ offscreen.s: offscreen.c.s
 
 # target to generate assembly for a file
 offscreen.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\offscreen.dir\build.make external/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.s
 .PHONY : offscreen.c.s
 
 particles.obj: particles.c.obj
@@ -519,7 +519,7 @@ particles.obj: particles.c.obj
 
 # target to build an object file
 particles.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/particles.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/particles.c.obj
 .PHONY : particles.c.obj
 
 particles.i: particles.c.i
@@ -527,7 +527,7 @@ particles.i: particles.c.i
 
 # target to preprocess a source file
 particles.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/particles.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/particles.c.i
 .PHONY : particles.c.i
 
 particles.s: particles.c.s
@@ -535,7 +535,7 @@ particles.s: particles.c.s
 
 # target to generate assembly for a file
 particles.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/particles.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\particles.dir\build.make external/glfw/examples/CMakeFiles/particles.dir/particles.c.s
 .PHONY : particles.c.s
 
 sharing.obj: sharing.c.obj
@@ -543,7 +543,7 @@ sharing.obj: sharing.c.obj
 
 # target to build an object file
 sharing.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/sharing.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/sharing.c.obj
 .PHONY : sharing.c.obj
 
 sharing.i: sharing.c.i
@@ -551,7 +551,7 @@ sharing.i: sharing.c.i
 
 # target to preprocess a source file
 sharing.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/sharing.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/sharing.c.i
 .PHONY : sharing.c.i
 
 sharing.s: sharing.c.s
@@ -559,7 +559,7 @@ sharing.s: sharing.c.s
 
 # target to generate assembly for a file
 sharing.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/sharing.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\sharing.dir\build.make external/glfw/examples/CMakeFiles/sharing.dir/sharing.c.s
 .PHONY : sharing.c.s
 
 simple.obj: simple.c.obj
@@ -567,7 +567,7 @@ simple.obj: simple.c.obj
 
 # target to build an object file
 simple.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/simple.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/simple.c.obj
 .PHONY : simple.c.obj
 
 simple.i: simple.c.i
@@ -575,7 +575,7 @@ simple.i: simple.c.i
 
 # target to preprocess a source file
 simple.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/simple.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/simple.c.i
 .PHONY : simple.c.i
 
 simple.s: simple.c.s
@@ -583,7 +583,7 @@ simple.s: simple.c.s
 
 # target to generate assembly for a file
 simple.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/simple.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\simple.dir\build.make external/glfw/examples/CMakeFiles/simple.dir/simple.c.s
 .PHONY : simple.c.s
 
 splitview.obj: splitview.c.obj
@@ -591,7 +591,7 @@ splitview.obj: splitview.c.obj
 
 # target to build an object file
 splitview.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/splitview.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/splitview.c.obj
 .PHONY : splitview.c.obj
 
 splitview.i: splitview.c.i
@@ -599,7 +599,7 @@ splitview.i: splitview.c.i
 
 # target to preprocess a source file
 splitview.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/splitview.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/splitview.c.i
 .PHONY : splitview.c.i
 
 splitview.s: splitview.c.s
@@ -607,7 +607,7 @@ splitview.s: splitview.c.s
 
 # target to generate assembly for a file
 splitview.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/splitview.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\splitview.dir\build.make external/glfw/examples/CMakeFiles/splitview.dir/splitview.c.s
 .PHONY : splitview.c.s
 
 wave.obj: wave.c.obj
@@ -615,7 +615,7 @@ wave.obj: wave.c.obj
 
 # target to build an object file
 wave.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/wave.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/wave.c.obj
 .PHONY : wave.c.obj
 
 wave.i: wave.c.i
@@ -623,7 +623,7 @@ wave.i: wave.c.i
 
 # target to preprocess a source file
 wave.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/wave.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/wave.c.i
 .PHONY : wave.c.i
 
 wave.s: wave.c.s
@@ -631,7 +631,7 @@ wave.s: wave.c.s
 
 # target to generate assembly for a file
 wave.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/wave.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\examples\CMakeFiles\wave.dir\build.make external/glfw/examples/CMakeFiles/wave.dir/wave.c.s
 .PHONY : wave.c.s
 
 # Help Target
@@ -705,6 +705,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

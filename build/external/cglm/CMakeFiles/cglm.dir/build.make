@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 # Include any dependencies generated for this target.
 include external/cglm/CMakeFiles/cglm.dir/depend.make
@@ -72,496 +72,496 @@ external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj: external/cglm/CMakeFiles/cglm
 external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj: ../external/cglm/src/euler.c
 external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj -MF CMakeFiles\cglm.dir\src\euler.c.obj.d -o CMakeFiles\cglm.dir\src\euler.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\euler.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/euler.c.obj -MF CMakeFiles\cglm.dir\src\euler.c.obj.d -o CMakeFiles\cglm.dir\src\euler.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\euler.c
 
 external/cglm/CMakeFiles/cglm.dir/src/euler.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/euler.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\euler.c > CMakeFiles\cglm.dir\src\euler.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\euler.c > CMakeFiles\cglm.dir\src\euler.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/euler.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/euler.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\euler.c -o CMakeFiles\cglm.dir\src\euler.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\euler.c -o CMakeFiles\cglm.dir\src\euler.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj: ../external/cglm/src/affine.c
 external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj -MF CMakeFiles\cglm.dir\src\affine.c.obj.d -o CMakeFiles\cglm.dir\src\affine.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\affine.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/affine.c.obj -MF CMakeFiles\cglm.dir\src\affine.c.obj.d -o CMakeFiles\cglm.dir\src\affine.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\affine.c
 
 external/cglm/CMakeFiles/cglm.dir/src/affine.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/affine.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\affine.c > CMakeFiles\cglm.dir\src\affine.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\affine.c > CMakeFiles\cglm.dir\src\affine.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/affine.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/affine.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\affine.c -o CMakeFiles\cglm.dir\src\affine.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\affine.c -o CMakeFiles\cglm.dir\src\affine.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/io.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/io.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/io.c.obj: ../external/cglm/src/io.c
 external/cglm/CMakeFiles/cglm.dir/src/io.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/cglm/CMakeFiles/cglm.dir/src/io.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/io.c.obj -MF CMakeFiles\cglm.dir\src\io.c.obj.d -o CMakeFiles\cglm.dir\src\io.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/cglm/CMakeFiles/cglm.dir/src/io.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/io.c.obj -MF CMakeFiles\cglm.dir\src\io.c.obj.d -o CMakeFiles\cglm.dir\src\io.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\io.c
 
 external/cglm/CMakeFiles/cglm.dir/src/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/io.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\io.c > CMakeFiles\cglm.dir\src\io.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\io.c > CMakeFiles\cglm.dir\src\io.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/io.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\io.c -o CMakeFiles\cglm.dir\src\io.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\io.c -o CMakeFiles\cglm.dir\src\io.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj: ../external/cglm/src/quat.c
 external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj -MF CMakeFiles\cglm.dir\src\quat.c.obj.d -o CMakeFiles\cglm.dir\src\quat.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\quat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/quat.c.obj -MF CMakeFiles\cglm.dir\src\quat.c.obj.d -o CMakeFiles\cglm.dir\src\quat.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\quat.c
 
 external/cglm/CMakeFiles/cglm.dir/src/quat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/quat.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\quat.c > CMakeFiles\cglm.dir\src\quat.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\quat.c > CMakeFiles\cglm.dir\src\quat.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/quat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/quat.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\quat.c -o CMakeFiles\cglm.dir\src\quat.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\quat.c -o CMakeFiles\cglm.dir\src\quat.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj: ../external/cglm/src/cam.c
 external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj -MF CMakeFiles\cglm.dir\src\cam.c.obj.d -o CMakeFiles\cglm.dir\src\cam.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\cam.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/cam.c.obj -MF CMakeFiles\cglm.dir\src\cam.c.obj.d -o CMakeFiles\cglm.dir\src\cam.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\cam.c
 
 external/cglm/CMakeFiles/cglm.dir/src/cam.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/cam.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\cam.c > CMakeFiles\cglm.dir\src\cam.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\cam.c > CMakeFiles\cglm.dir\src\cam.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/cam.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/cam.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\cam.c -o CMakeFiles\cglm.dir\src\cam.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\cam.c -o CMakeFiles\cglm.dir\src\cam.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj: ../external/cglm/src/vec2.c
 external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj -MF CMakeFiles\cglm.dir\src\vec2.c.obj.d -o CMakeFiles\cglm.dir\src\vec2.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/vec2.c.obj -MF CMakeFiles\cglm.dir\src\vec2.c.obj.d -o CMakeFiles\cglm.dir\src\vec2.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec2.c
 
 external/cglm/CMakeFiles/cglm.dir/src/vec2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/vec2.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec2.c > CMakeFiles\cglm.dir\src\vec2.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec2.c > CMakeFiles\cglm.dir\src\vec2.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/vec2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/vec2.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec2.c -o CMakeFiles\cglm.dir\src\vec2.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec2.c -o CMakeFiles\cglm.dir\src\vec2.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj: ../external/cglm/src/vec3.c
 external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj -MF CMakeFiles\cglm.dir\src\vec3.c.obj.d -o CMakeFiles\cglm.dir\src\vec3.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/vec3.c.obj -MF CMakeFiles\cglm.dir\src\vec3.c.obj.d -o CMakeFiles\cglm.dir\src\vec3.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec3.c
 
 external/cglm/CMakeFiles/cglm.dir/src/vec3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/vec3.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec3.c > CMakeFiles\cglm.dir\src\vec3.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec3.c > CMakeFiles\cglm.dir\src\vec3.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/vec3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/vec3.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec3.c -o CMakeFiles\cglm.dir\src\vec3.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec3.c -o CMakeFiles\cglm.dir\src\vec3.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj: ../external/cglm/src/vec4.c
 external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj -MF CMakeFiles\cglm.dir\src\vec4.c.obj.d -o CMakeFiles\cglm.dir\src\vec4.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/vec4.c.obj -MF CMakeFiles\cglm.dir\src\vec4.c.obj.d -o CMakeFiles\cglm.dir\src\vec4.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec4.c
 
 external/cglm/CMakeFiles/cglm.dir/src/vec4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/vec4.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec4.c > CMakeFiles\cglm.dir\src\vec4.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec4.c > CMakeFiles\cglm.dir\src\vec4.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/vec4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/vec4.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\vec4.c -o CMakeFiles\cglm.dir\src\vec4.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\vec4.c -o CMakeFiles\cglm.dir\src\vec4.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj: ../external/cglm/src/mat2.c
 external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj -MF CMakeFiles\cglm.dir\src\mat2.c.obj.d -o CMakeFiles\cglm.dir\src\mat2.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/mat2.c.obj -MF CMakeFiles\cglm.dir\src\mat2.c.obj.d -o CMakeFiles\cglm.dir\src\mat2.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat2.c
 
 external/cglm/CMakeFiles/cglm.dir/src/mat2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/mat2.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat2.c > CMakeFiles\cglm.dir\src\mat2.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat2.c > CMakeFiles\cglm.dir\src\mat2.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/mat2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/mat2.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat2.c -o CMakeFiles\cglm.dir\src\mat2.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat2.c -o CMakeFiles\cglm.dir\src\mat2.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj: ../external/cglm/src/mat3.c
 external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj -MF CMakeFiles\cglm.dir\src\mat3.c.obj.d -o CMakeFiles\cglm.dir\src\mat3.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/mat3.c.obj -MF CMakeFiles\cglm.dir\src\mat3.c.obj.d -o CMakeFiles\cglm.dir\src\mat3.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat3.c
 
 external/cglm/CMakeFiles/cglm.dir/src/mat3.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/mat3.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat3.c > CMakeFiles\cglm.dir\src\mat3.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat3.c > CMakeFiles\cglm.dir\src\mat3.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/mat3.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/mat3.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat3.c -o CMakeFiles\cglm.dir\src\mat3.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat3.c -o CMakeFiles\cglm.dir\src\mat3.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj: ../external/cglm/src/mat4.c
 external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj -MF CMakeFiles\cglm.dir\src\mat4.c.obj.d -o CMakeFiles\cglm.dir\src\mat4.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/mat4.c.obj -MF CMakeFiles\cglm.dir\src\mat4.c.obj.d -o CMakeFiles\cglm.dir\src\mat4.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat4.c
 
 external/cglm/CMakeFiles/cglm.dir/src/mat4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/mat4.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat4.c > CMakeFiles\cglm.dir\src\mat4.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat4.c > CMakeFiles\cglm.dir\src\mat4.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/mat4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/mat4.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\mat4.c -o CMakeFiles\cglm.dir\src\mat4.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\mat4.c -o CMakeFiles\cglm.dir\src\mat4.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj: ../external/cglm/src/plane.c
 external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj -MF CMakeFiles\cglm.dir\src\plane.c.obj.d -o CMakeFiles\cglm.dir\src\plane.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\plane.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/plane.c.obj -MF CMakeFiles\cglm.dir\src\plane.c.obj.d -o CMakeFiles\cglm.dir\src\plane.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\plane.c
 
 external/cglm/CMakeFiles/cglm.dir/src/plane.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/plane.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\plane.c > CMakeFiles\cglm.dir\src\plane.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\plane.c > CMakeFiles\cglm.dir\src\plane.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/plane.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/plane.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\plane.c -o CMakeFiles\cglm.dir\src\plane.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\plane.c -o CMakeFiles\cglm.dir\src\plane.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj: ../external/cglm/src/frustum.c
 external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj -MF CMakeFiles\cglm.dir\src\frustum.c.obj.d -o CMakeFiles\cglm.dir\src\frustum.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\frustum.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/frustum.c.obj -MF CMakeFiles\cglm.dir\src\frustum.c.obj.d -o CMakeFiles\cglm.dir\src\frustum.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\frustum.c
 
 external/cglm/CMakeFiles/cglm.dir/src/frustum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/frustum.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\frustum.c > CMakeFiles\cglm.dir\src\frustum.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\frustum.c > CMakeFiles\cglm.dir\src\frustum.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/frustum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/frustum.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\frustum.c -o CMakeFiles\cglm.dir\src\frustum.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\frustum.c -o CMakeFiles\cglm.dir\src\frustum.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/box.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/box.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/box.c.obj: ../external/cglm/src/box.c
 external/cglm/CMakeFiles/cglm.dir/src/box.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/cglm/CMakeFiles/cglm.dir/src/box.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/box.c.obj -MF CMakeFiles\cglm.dir\src\box.c.obj.d -o CMakeFiles\cglm.dir\src\box.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\box.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/cglm/CMakeFiles/cglm.dir/src/box.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/box.c.obj -MF CMakeFiles\cglm.dir\src\box.c.obj.d -o CMakeFiles\cglm.dir\src\box.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\box.c
 
 external/cglm/CMakeFiles/cglm.dir/src/box.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/box.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\box.c > CMakeFiles\cglm.dir\src\box.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\box.c > CMakeFiles\cglm.dir\src\box.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/box.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/box.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\box.c -o CMakeFiles\cglm.dir\src\box.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\box.c -o CMakeFiles\cglm.dir\src\box.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/project.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/project.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/project.c.obj: ../external/cglm/src/project.c
 external/cglm/CMakeFiles/cglm.dir/src/project.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/cglm/CMakeFiles/cglm.dir/src/project.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/project.c.obj -MF CMakeFiles\cglm.dir\src\project.c.obj.d -o CMakeFiles\cglm.dir\src\project.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\project.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/cglm/CMakeFiles/cglm.dir/src/project.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/project.c.obj -MF CMakeFiles\cglm.dir\src\project.c.obj.d -o CMakeFiles\cglm.dir\src\project.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\project.c
 
 external/cglm/CMakeFiles/cglm.dir/src/project.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/project.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\project.c > CMakeFiles\cglm.dir\src\project.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\project.c > CMakeFiles\cglm.dir\src\project.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/project.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/project.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\project.c -o CMakeFiles\cglm.dir\src\project.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\project.c -o CMakeFiles\cglm.dir\src\project.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj: ../external/cglm/src/sphere.c
 external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj -MF CMakeFiles\cglm.dir\src\sphere.c.obj.d -o CMakeFiles\cglm.dir\src\sphere.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\sphere.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/sphere.c.obj -MF CMakeFiles\cglm.dir\src\sphere.c.obj.d -o CMakeFiles\cglm.dir\src\sphere.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\sphere.c
 
 external/cglm/CMakeFiles/cglm.dir/src/sphere.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/sphere.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\sphere.c > CMakeFiles\cglm.dir\src\sphere.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\sphere.c > CMakeFiles\cglm.dir\src\sphere.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/sphere.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/sphere.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\sphere.c -o CMakeFiles\cglm.dir\src\sphere.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\sphere.c -o CMakeFiles\cglm.dir\src\sphere.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj: ../external/cglm/src/ease.c
 external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj -MF CMakeFiles\cglm.dir\src\ease.c.obj.d -o CMakeFiles\cglm.dir\src\ease.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\ease.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/ease.c.obj -MF CMakeFiles\cglm.dir\src\ease.c.obj.d -o CMakeFiles\cglm.dir\src\ease.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\ease.c
 
 external/cglm/CMakeFiles/cglm.dir/src/ease.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/ease.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\ease.c > CMakeFiles\cglm.dir\src\ease.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\ease.c > CMakeFiles\cglm.dir\src\ease.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/ease.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/ease.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\ease.c -o CMakeFiles\cglm.dir\src\ease.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\ease.c -o CMakeFiles\cglm.dir\src\ease.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj: ../external/cglm/src/curve.c
 external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj -MF CMakeFiles\cglm.dir\src\curve.c.obj.d -o CMakeFiles\cglm.dir\src\curve.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\curve.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/curve.c.obj -MF CMakeFiles\cglm.dir\src\curve.c.obj.d -o CMakeFiles\cglm.dir\src\curve.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\curve.c
 
 external/cglm/CMakeFiles/cglm.dir/src/curve.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/curve.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\curve.c > CMakeFiles\cglm.dir\src\curve.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\curve.c > CMakeFiles\cglm.dir\src\curve.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/curve.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/curve.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\curve.c -o CMakeFiles\cglm.dir\src\curve.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\curve.c -o CMakeFiles\cglm.dir\src\curve.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj: ../external/cglm/src/bezier.c
 external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj -MF CMakeFiles\cglm.dir\src\bezier.c.obj.d -o CMakeFiles\cglm.dir\src\bezier.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\bezier.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/bezier.c.obj -MF CMakeFiles\cglm.dir\src\bezier.c.obj.d -o CMakeFiles\cglm.dir\src\bezier.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\bezier.c
 
 external/cglm/CMakeFiles/cglm.dir/src/bezier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/bezier.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\bezier.c > CMakeFiles\cglm.dir\src\bezier.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\bezier.c > CMakeFiles\cglm.dir\src\bezier.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/bezier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/bezier.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\bezier.c -o CMakeFiles\cglm.dir\src\bezier.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\bezier.c -o CMakeFiles\cglm.dir\src\bezier.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj: ../external/cglm/src/ray.c
 external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj -MF CMakeFiles\cglm.dir\src\ray.c.obj.d -o CMakeFiles\cglm.dir\src\ray.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\ray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/ray.c.obj -MF CMakeFiles\cglm.dir\src\ray.c.obj.d -o CMakeFiles\cglm.dir\src\ray.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\ray.c
 
 external/cglm/CMakeFiles/cglm.dir/src/ray.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/ray.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\ray.c > CMakeFiles\cglm.dir\src\ray.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\ray.c > CMakeFiles\cglm.dir\src\ray.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/ray.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/ray.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\ray.c -o CMakeFiles\cglm.dir\src\ray.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\ray.c -o CMakeFiles\cglm.dir\src\ray.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj: ../external/cglm/src/affine2d.c
 external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj -MF CMakeFiles\cglm.dir\src\affine2d.c.obj.d -o CMakeFiles\cglm.dir\src\affine2d.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\affine2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.obj -MF CMakeFiles\cglm.dir\src\affine2d.c.obj.d -o CMakeFiles\cglm.dir\src\affine2d.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\affine2d.c
 
 external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/affine2d.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\affine2d.c > CMakeFiles\cglm.dir\src\affine2d.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\affine2d.c > CMakeFiles\cglm.dir\src\affine2d.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/affine2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/affine2d.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\affine2d.c -o CMakeFiles\cglm.dir\src\affine2d.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\affine2d.c -o CMakeFiles\cglm.dir\src\affine2d.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj: ../external/cglm/src/clipspace/persp_lh_zo.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_lh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_lh_zo.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_lh_zo.c > CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_lh_zo.c > CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_lh_zo.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_lh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_lh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_zo.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj: ../external/cglm/src/clipspace/persp_rh_zo.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_rh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_rh_zo.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_rh_zo.c > CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_rh_zo.c > CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_rh_zo.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_rh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_rh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_zo.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj: ../external/cglm/src/clipspace/persp_lh_no.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_lh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_lh_no.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_lh_no.c > CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_lh_no.c > CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_lh_no.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_lh_no.c -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_lh_no.c -o CMakeFiles\cglm.dir\src\clipspace\persp_lh_no.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj: ../external/cglm/src/clipspace/persp_rh_no.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_rh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_rh_no.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_rh_no.c > CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_rh_no.c > CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/persp_rh_no.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\persp_rh_no.c -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\persp_rh_no.c -o CMakeFiles\cglm.dir\src\clipspace\persp_rh_no.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj: ../external/cglm/src/clipspace/ortho_lh_zo.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_lh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_lh_zo.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_lh_zo.c > CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_lh_zo.c > CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_lh_zo.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_lh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_lh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_zo.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj: ../external/cglm/src/clipspace/ortho_rh_zo.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_rh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_rh_zo.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_rh_zo.c > CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_rh_zo.c > CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_rh_zo.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_rh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_rh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_zo.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj: ../external/cglm/src/clipspace/ortho_lh_no.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_lh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_lh_no.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_lh_no.c > CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_lh_no.c > CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_lh_no.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_lh_no.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_lh_no.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_lh_no.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj: ../external/cglm/src/clipspace/ortho_rh_no.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_rh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_rh_no.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_rh_no.c > CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_rh_no.c > CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/ortho_rh_no.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\ortho_rh_no.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\ortho_rh_no.c -o CMakeFiles\cglm.dir\src\clipspace\ortho_rh_no.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj: ../external/cglm/src/clipspace/view_lh_zo.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_lh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_lh_zo.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_lh_zo.c > CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_lh_zo.c > CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_lh_zo.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_lh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_lh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\view_lh_zo.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj: ../external/cglm/src/clipspace/view_rh_zo.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_rh_zo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_rh_zo.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_rh_zo.c > CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_rh_zo.c > CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_rh_zo.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_rh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_rh_zo.c -o CMakeFiles\cglm.dir\src\clipspace\view_rh_zo.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj: ../external/cglm/src/clipspace/view_lh_no.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_lh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_lh_no.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_lh_no.c > CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_lh_no.c > CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_lh_no.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_lh_no.c -o CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_lh_no.c -o CMakeFiles\cglm.dir\src\clipspace\view_lh_no.c.s
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/flags.make
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/includes_C.rsp
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj: ../external/cglm/src/clipspace/view_rh_no.c
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj: external/cglm/CMakeFiles/cglm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_rh_no.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.obj -MF CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.obj.d -o CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_rh_no.c
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_rh_no.c > CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_rh_no.c > CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.i
 
 external/cglm/CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cglm.dir/src/clipspace/view_rh_no.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\cglm\src\clipspace\view_rh_no.c -o CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\cglm\src\clipspace\view_rh_no.c -o CMakeFiles\cglm.dir\src\clipspace\view_rh_no.c.s
 
 # Object files for target cglm
 cglm_OBJECTS = \
@@ -639,18 +639,18 @@ external/cglm/libcglm-0.dll: external/cglm/CMakeFiles/cglm.dir/build.make
 external/cglm/libcglm-0.dll: external/cglm/CMakeFiles/cglm.dir/linklibs.rsp
 external/cglm/libcglm-0.dll: external/cglm/CMakeFiles/cglm.dir/objects1.rsp
 external/cglm/libcglm-0.dll: external/cglm/CMakeFiles/cglm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C shared library libcglm-0.dll"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cglm.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C shared library libcglm-0.dll"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cglm.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/cglm/CMakeFiles/cglm.dir/build: external/cglm/libcglm-0.dll
 .PHONY : external/cglm/CMakeFiles/cglm.dir/build
 
 external/cglm/CMakeFiles/cglm.dir/clean:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm && $(CMAKE_COMMAND) -P CMakeFiles\cglm.dir\cmake_clean.cmake
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm && $(CMAKE_COMMAND) -P CMakeFiles\cglm.dir\cmake_clean.cmake
 .PHONY : external/cglm/CMakeFiles/cglm.dir/clean
 
 external/cglm/CMakeFiles/cglm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\openGL C:\Users\snous\OneDrive\Desktop\openGL\external\cglm C:\Users\snous\OneDrive\Desktop\openGL\build C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm C:\Users\snous\OneDrive\Desktop\openGL\build\external\cglm\CMakeFiles\cglm.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\gengin C:\Users\snous\OneDrive\Desktop\gengin\external\cglm C:\Users\snous\OneDrive\Desktop\gengin\build C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm C:\Users\snous\OneDrive\Desktop\gengin\build\external\cglm\CMakeFiles\cglm.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : external/cglm/CMakeFiles/cglm.dir/depend
 

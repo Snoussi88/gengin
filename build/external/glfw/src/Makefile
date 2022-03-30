@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -77,7 +77,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/snous/OneDrive/Desktop/openGL/build/CPackSourceConfig.cmake
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake C:/Users/snous/OneDrive/Desktop/gengin/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -151,14 +151,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\src\\CMakeFiles\progress.marks
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles 0
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\src\\CMakeFiles\progress.marks
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/clean
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -167,22 +167,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/preinstall
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/preinstall
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/glfw/src/CMakeFiles/update_mappings.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/CMakeFiles/update_mappings.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/CMakeFiles/update_mappings.dir/rule
 .PHONY : external/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -191,12 +191,12 @@ update_mappings: external/glfw/src/CMakeFiles/update_mappings.dir/rule
 
 # fast build rule for target.
 update_mappings/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/glfw/src/CMakeFiles/update_mappings.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\update_mappings.dir\build.make external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
 # Convenience name for target.
 external/glfw/src/CMakeFiles/glfw.dir/rule:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/CMakeFiles/glfw.dir/rule
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/glfw/src/CMakeFiles/glfw.dir/rule
 .PHONY : external/glfw/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -205,7 +205,7 @@ glfw: external/glfw/src/CMakeFiles/glfw.dir/rule
 
 # fast build rule for target.
 glfw/fast:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/build
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 context.obj: context.c.obj
@@ -213,7 +213,7 @@ context.obj: context.c.obj
 
 # target to build an object file
 context.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/context.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/context.c.obj
 .PHONY : context.c.obj
 
 context.i: context.c.i
@@ -221,7 +221,7 @@ context.i: context.c.i
 
 # target to preprocess a source file
 context.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/context.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/context.c.i
 .PHONY : context.c.i
 
 context.s: context.c.s
@@ -229,7 +229,7 @@ context.s: context.c.s
 
 # target to generate assembly for a file
 context.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/context.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/context.c.s
 .PHONY : context.c.s
 
 egl_context.obj: egl_context.c.obj
@@ -237,7 +237,7 @@ egl_context.obj: egl_context.c.obj
 
 # target to build an object file
 egl_context.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj
 .PHONY : egl_context.c.obj
 
 egl_context.i: egl_context.c.i
@@ -245,7 +245,7 @@ egl_context.i: egl_context.c.i
 
 # target to preprocess a source file
 egl_context.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.i
 .PHONY : egl_context.c.i
 
 egl_context.s: egl_context.c.s
@@ -253,7 +253,7 @@ egl_context.s: egl_context.c.s
 
 # target to generate assembly for a file
 egl_context.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/egl_context.c.s
 .PHONY : egl_context.c.s
 
 init.obj: init.c.obj
@@ -261,7 +261,7 @@ init.obj: init.c.obj
 
 # target to build an object file
 init.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/init.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/init.c.obj
 .PHONY : init.c.obj
 
 init.i: init.c.i
@@ -269,7 +269,7 @@ init.i: init.c.i
 
 # target to preprocess a source file
 init.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/init.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/init.c.i
 .PHONY : init.c.i
 
 init.s: init.c.s
@@ -277,7 +277,7 @@ init.s: init.c.s
 
 # target to generate assembly for a file
 init.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/init.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/init.c.s
 .PHONY : init.c.s
 
 input.obj: input.c.obj
@@ -285,7 +285,7 @@ input.obj: input.c.obj
 
 # target to build an object file
 input.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/input.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/input.c.obj
 .PHONY : input.c.obj
 
 input.i: input.c.i
@@ -293,7 +293,7 @@ input.i: input.c.i
 
 # target to preprocess a source file
 input.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/input.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/input.c.i
 .PHONY : input.c.i
 
 input.s: input.c.s
@@ -301,7 +301,7 @@ input.s: input.c.s
 
 # target to generate assembly for a file
 input.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/input.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/input.c.s
 .PHONY : input.c.s
 
 monitor.obj: monitor.c.obj
@@ -309,7 +309,7 @@ monitor.obj: monitor.c.obj
 
 # target to build an object file
 monitor.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj
 .PHONY : monitor.c.obj
 
 monitor.i: monitor.c.i
@@ -317,7 +317,7 @@ monitor.i: monitor.c.i
 
 # target to preprocess a source file
 monitor.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/monitor.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/monitor.c.i
 .PHONY : monitor.c.i
 
 monitor.s: monitor.c.s
@@ -325,7 +325,7 @@ monitor.s: monitor.c.s
 
 # target to generate assembly for a file
 monitor.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/monitor.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/monitor.c.s
 .PHONY : monitor.c.s
 
 osmesa_context.obj: osmesa_context.c.obj
@@ -333,7 +333,7 @@ osmesa_context.obj: osmesa_context.c.obj
 
 # target to build an object file
 osmesa_context.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj
 .PHONY : osmesa_context.c.obj
 
 osmesa_context.i: osmesa_context.c.i
@@ -341,7 +341,7 @@ osmesa_context.i: osmesa_context.c.i
 
 # target to preprocess a source file
 osmesa_context.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.i
 .PHONY : osmesa_context.c.i
 
 osmesa_context.s: osmesa_context.c.s
@@ -349,7 +349,7 @@ osmesa_context.s: osmesa_context.c.s
 
 # target to generate assembly for a file
 osmesa_context.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.s
 .PHONY : osmesa_context.c.s
 
 vulkan.obj: vulkan.c.obj
@@ -357,7 +357,7 @@ vulkan.obj: vulkan.c.obj
 
 # target to build an object file
 vulkan.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj
 .PHONY : vulkan.c.obj
 
 vulkan.i: vulkan.c.i
@@ -365,7 +365,7 @@ vulkan.i: vulkan.c.i
 
 # target to preprocess a source file
 vulkan.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.i
 .PHONY : vulkan.c.i
 
 vulkan.s: vulkan.c.s
@@ -373,7 +373,7 @@ vulkan.s: vulkan.c.s
 
 # target to generate assembly for a file
 vulkan.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/vulkan.c.s
 .PHONY : vulkan.c.s
 
 wgl_context.obj: wgl_context.c.obj
@@ -381,7 +381,7 @@ wgl_context.obj: wgl_context.c.obj
 
 # target to build an object file
 wgl_context.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj
 .PHONY : wgl_context.c.obj
 
 wgl_context.i: wgl_context.c.i
@@ -389,7 +389,7 @@ wgl_context.i: wgl_context.c.i
 
 # target to preprocess a source file
 wgl_context.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.i
 .PHONY : wgl_context.c.i
 
 wgl_context.s: wgl_context.c.s
@@ -397,7 +397,7 @@ wgl_context.s: wgl_context.c.s
 
 # target to generate assembly for a file
 wgl_context.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.s
 .PHONY : wgl_context.c.s
 
 win32_init.obj: win32_init.c.obj
@@ -405,7 +405,7 @@ win32_init.obj: win32_init.c.obj
 
 # target to build an object file
 win32_init.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj
 .PHONY : win32_init.c.obj
 
 win32_init.i: win32_init.c.i
@@ -413,7 +413,7 @@ win32_init.i: win32_init.c.i
 
 # target to preprocess a source file
 win32_init.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.i
 .PHONY : win32_init.c.i
 
 win32_init.s: win32_init.c.s
@@ -421,7 +421,7 @@ win32_init.s: win32_init.c.s
 
 # target to generate assembly for a file
 win32_init.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_init.c.s
 .PHONY : win32_init.c.s
 
 win32_joystick.obj: win32_joystick.c.obj
@@ -429,7 +429,7 @@ win32_joystick.obj: win32_joystick.c.obj
 
 # target to build an object file
 win32_joystick.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj
 .PHONY : win32_joystick.c.obj
 
 win32_joystick.i: win32_joystick.c.i
@@ -437,7 +437,7 @@ win32_joystick.i: win32_joystick.c.i
 
 # target to preprocess a source file
 win32_joystick.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.i
 .PHONY : win32_joystick.c.i
 
 win32_joystick.s: win32_joystick.c.s
@@ -445,7 +445,7 @@ win32_joystick.s: win32_joystick.c.s
 
 # target to generate assembly for a file
 win32_joystick.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.s
 .PHONY : win32_joystick.c.s
 
 win32_monitor.obj: win32_monitor.c.obj
@@ -453,7 +453,7 @@ win32_monitor.obj: win32_monitor.c.obj
 
 # target to build an object file
 win32_monitor.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj
 .PHONY : win32_monitor.c.obj
 
 win32_monitor.i: win32_monitor.c.i
@@ -461,7 +461,7 @@ win32_monitor.i: win32_monitor.c.i
 
 # target to preprocess a source file
 win32_monitor.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.i
 .PHONY : win32_monitor.c.i
 
 win32_monitor.s: win32_monitor.c.s
@@ -469,7 +469,7 @@ win32_monitor.s: win32_monitor.c.s
 
 # target to generate assembly for a file
 win32_monitor.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.s
 .PHONY : win32_monitor.c.s
 
 win32_thread.obj: win32_thread.c.obj
@@ -477,7 +477,7 @@ win32_thread.obj: win32_thread.c.obj
 
 # target to build an object file
 win32_thread.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj
 .PHONY : win32_thread.c.obj
 
 win32_thread.i: win32_thread.c.i
@@ -485,7 +485,7 @@ win32_thread.i: win32_thread.c.i
 
 # target to preprocess a source file
 win32_thread.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.i
 .PHONY : win32_thread.c.i
 
 win32_thread.s: win32_thread.c.s
@@ -493,7 +493,7 @@ win32_thread.s: win32_thread.c.s
 
 # target to generate assembly for a file
 win32_thread.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.s
 .PHONY : win32_thread.c.s
 
 win32_time.obj: win32_time.c.obj
@@ -501,7 +501,7 @@ win32_time.obj: win32_time.c.obj
 
 # target to build an object file
 win32_time.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj
 .PHONY : win32_time.c.obj
 
 win32_time.i: win32_time.c.i
@@ -509,7 +509,7 @@ win32_time.i: win32_time.c.i
 
 # target to preprocess a source file
 win32_time.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.i
 .PHONY : win32_time.c.i
 
 win32_time.s: win32_time.c.s
@@ -517,7 +517,7 @@ win32_time.s: win32_time.c.s
 
 # target to generate assembly for a file
 win32_time.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_time.c.s
 .PHONY : win32_time.c.s
 
 win32_window.obj: win32_window.c.obj
@@ -525,7 +525,7 @@ win32_window.obj: win32_window.c.obj
 
 # target to build an object file
 win32_window.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj
 .PHONY : win32_window.c.obj
 
 win32_window.i: win32_window.c.i
@@ -533,7 +533,7 @@ win32_window.i: win32_window.c.i
 
 # target to preprocess a source file
 win32_window.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.i
 .PHONY : win32_window.c.i
 
 win32_window.s: win32_window.c.s
@@ -541,7 +541,7 @@ win32_window.s: win32_window.c.s
 
 # target to generate assembly for a file
 win32_window.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/win32_window.c.s
 .PHONY : win32_window.c.s
 
 window.obj: window.c.obj
@@ -549,7 +549,7 @@ window.obj: window.c.obj
 
 # target to build an object file
 window.c.obj:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/window.c.obj
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/window.c.obj
 .PHONY : window.c.obj
 
 window.i: window.c.i
@@ -557,7 +557,7 @@ window.i: window.c.i
 
 # target to preprocess a source file
 window.c.i:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/window.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/window.c.i
 .PHONY : window.c.i
 
 window.s: window.c.s
@@ -565,7 +565,7 @@ window.s: window.c.s
 
 # target to generate assembly for a file
 window.c.s:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/window.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(MAKE) $(MAKESILENT) -f external\glfw\src\CMakeFiles\glfw.dir\build.make external/glfw/src/CMakeFiles/glfw.dir/window.c.s
 .PHONY : window.c.s
 
 # Help Target
@@ -640,6 +640,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

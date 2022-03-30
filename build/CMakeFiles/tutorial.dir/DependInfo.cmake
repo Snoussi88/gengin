@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/snous/OneDrive/Desktop/openGL/src/glad.c" "CMakeFiles/tutorial.dir/src/glad.c.obj" "gcc" "CMakeFiles/tutorial.dir/src/glad.c.obj.d"
-  "C:/Users/snous/OneDrive/Desktop/openGL/src/main.cpp" "CMakeFiles/tutorial.dir/src/main.cpp.obj" "gcc" "CMakeFiles/tutorial.dir/src/main.cpp.obj.d"
+  "C:/Users/snous/OneDrive/Desktop/gengin/src/glad.c" "CMakeFiles/tutorial.dir/src/glad.c.obj" "gcc" "CMakeFiles/tutorial.dir/src/glad.c.obj.d"
+  "C:/Users/snous/OneDrive/Desktop/gengin/src/main.cpp" "CMakeFiles/tutorial.dir/src/main.cpp.obj" "gcc" "CMakeFiles/tutorial.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

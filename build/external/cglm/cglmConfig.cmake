@@ -45,14 +45,14 @@ unset(_expectedTargets)
 add_library(cglm::cglm SHARED IMPORTED)
 
 set_target_properties(cglm::cglm PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/include"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/include"
 )
 
 # Import target "cglm::cglm" for configuration "Debug"
 set_property(TARGET cglm::cglm APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(cglm::cglm PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm/libcglm.dll.a"
-  IMPORTED_LOCATION_DEBUG "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm/libcglm-0.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm/libcglm.dll.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm/libcglm-0.dll"
   )
 
 # This file does not depend on other imported targets which have

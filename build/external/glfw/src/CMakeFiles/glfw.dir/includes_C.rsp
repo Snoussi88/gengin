@@ -1,1 +1,1 @@
--IC:/Users/snous/OneDrive/Desktop/openGL/external/glfw/include -IC:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src -IC:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src -IC:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/mingw
+-IC:/Users/snous/OneDrive/Desktop/gengin/external/glfw/include -IC:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src -IC:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src -IC:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/mingw

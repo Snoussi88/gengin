@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples
+# Install script for directory: C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

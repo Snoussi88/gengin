@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/snous/OneDrive/Desktop/openGL
+# Install script for directory: C:/Users/snous/OneDrive/Desktop/gengin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,12 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/cmake_install.cmake")
+  include("C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm/cmake_install.cmake")
+  include("C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/snous/OneDrive/Desktop/openGL/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/snous/OneDrive/Desktop/gengin/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

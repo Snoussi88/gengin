@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 # Include any dependencies generated for this target.
 include external/glfw/tests/CMakeFiles/cursor.dir/depend.make
@@ -72,31 +72,31 @@ external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj: external/glfw/tests/CMak
 external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj: external/glfw/tests/CMakeFiles/cursor.dir/includes_C.rsp
 external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj: ../external/glfw/tests/cursor.c
 external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj: external/glfw/tests/CMakeFiles/cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj -MF CMakeFiles\cursor.dir\cursor.c.obj.d -o CMakeFiles\cursor.dir\cursor.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests\cursor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj -MF CMakeFiles\cursor.dir\cursor.c.obj.d -o CMakeFiles\cursor.dir\cursor.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests\cursor.c
 
 external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cursor.dir/cursor.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests\cursor.c > CMakeFiles\cursor.dir\cursor.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests\cursor.c > CMakeFiles\cursor.dir\cursor.c.i
 
 external/glfw/tests/CMakeFiles/cursor.dir/cursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cursor.dir/cursor.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests\cursor.c -o CMakeFiles\cursor.dir\cursor.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests\cursor.c -o CMakeFiles\cursor.dir\cursor.c.s
 
 external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: external/glfw/tests/CMakeFiles/cursor.dir/flags.make
 external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: external/glfw/tests/CMakeFiles/cursor.dir/includes_C.rsp
 external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: ../external/glfw/deps/glad_gl.c
 external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: external/glfw/tests/CMakeFiles/cursor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\deps\glad_gl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj -MF CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj.d -o CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\deps\glad_gl.c
 
 external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cursor.dir/__/deps/glad_gl.c.i"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\deps\glad_gl.c > CMakeFiles\cursor.dir\__\deps\glad_gl.c.i
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\deps\glad_gl.c > CMakeFiles\cursor.dir\__\deps\glad_gl.c.i
 
 external/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cursor.dir/__/deps/glad_gl.c.s"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\deps\glad_gl.c -o CMakeFiles\cursor.dir\__\deps\glad_gl.c.s
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\deps\glad_gl.c -o CMakeFiles\cursor.dir\__\deps\glad_gl.c.s
 
 # Object files for target cursor
 cursor_OBJECTS = \
@@ -113,18 +113,18 @@ external/glfw/tests/cursor.exe: external/glfw/src/libglfw3.a
 external/glfw/tests/cursor.exe: external/glfw/tests/CMakeFiles/cursor.dir/linklibs.rsp
 external/glfw/tests/cursor.exe: external/glfw/tests/CMakeFiles/cursor.dir/objects1.rsp
 external/glfw/tests/cursor.exe: external/glfw/tests/CMakeFiles/cursor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable cursor.exe"
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cursor.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable cursor.exe"
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cursor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/glfw/tests/CMakeFiles/cursor.dir/build: external/glfw/tests/cursor.exe
 .PHONY : external/glfw/tests/CMakeFiles/cursor.dir/build
 
 external/glfw/tests/CMakeFiles/cursor.dir/clean:
-	cd /d C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\cursor.dir\cmake_clean.cmake
+	cd /d C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests && $(CMAKE_COMMAND) -P CMakeFiles\cursor.dir\cmake_clean.cmake
 .PHONY : external/glfw/tests/CMakeFiles/cursor.dir/clean
 
 external/glfw/tests/CMakeFiles/cursor.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\openGL C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\tests C:\Users\snous\OneDrive\Desktop\openGL\build C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests C:\Users\snous\OneDrive\Desktop\openGL\build\external\glfw\tests\CMakeFiles\cursor.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\gengin C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\tests C:\Users\snous\OneDrive\Desktop\gengin\build C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests C:\Users\snous\OneDrive\Desktop\gengin\build\external\glfw\tests\CMakeFiles\cursor.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : external/glfw/tests/CMakeFiles/cursor.dir/depend
 

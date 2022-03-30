@@ -1,617 +1,617 @@
 [
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tutorial.dir/includes_CXX.rsp -g -o CMakeFiles\\tutorial.dir\\src\\main.cpp.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\src\\main.cpp",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/src/main.cpp"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/tutorial.dir/includes_CXX.rsp -g -o CMakeFiles\\tutorial.dir\\src\\main.cpp.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\src\\main.cpp",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/src/main.cpp"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/tutorial.dir/includes_C.rsp -g -o CMakeFiles\\tutorial.dir\\src\\glad.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\src\\glad.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/src/glad.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/tutorial.dir/includes_C.rsp -g -o CMakeFiles\\tutorial.dir\\src\\glad.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\src\\glad.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/src/glad.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build",
-  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/plane.dir/includes_CXX.rsp -g -o CMakeFiles\\plane.dir\\src\\plane.cpp.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\src\\plane.cpp",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/src/plane.cpp"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/plane.dir/includes_CXX.rsp -g -o CMakeFiles\\plane.dir\\src\\plane.cpp.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\src\\plane.cpp",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/src/plane.cpp"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/plane.dir/includes_C.rsp -g -o CMakeFiles\\plane.dir\\src\\glad.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\src\\glad.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/src/glad.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/plane.dir/includes_C.rsp -g -o CMakeFiles\\plane.dir\\src\\glad.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\src\\glad.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/src/glad.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\context.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/context.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\context.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/context.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\init.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/init.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\init.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/init.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\input.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/input.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\input.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/input.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\monitor.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/monitor.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\monitor.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/monitor.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\vulkan.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/vulkan.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\vulkan.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/vulkan.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\window.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/window.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\window.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/window.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\win32_init.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/win32_init.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\win32_init.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/win32_init.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\win32_joystick.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/win32_joystick.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\win32_joystick.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/win32_joystick.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\win32_monitor.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/win32_monitor.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\win32_monitor.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/win32_monitor.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\win32_time.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/win32_time.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\win32_time.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/win32_time.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\win32_thread.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/win32_thread.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\win32_thread.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/win32_thread.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\win32_window.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/win32_window.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\win32_window.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/win32_window.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\wgl_context.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/wgl_context.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\wgl_context.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/wgl_context.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\egl_context.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/egl_context.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\egl_context.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/egl_context.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/src",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\src\\osmesa_context.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/src/osmesa_context.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\src\\osmesa_context.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/src/osmesa_context.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/boing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\boing.dir\\boing.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\boing.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/boing.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/boing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\boing.dir\\boing.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\boing.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/boing.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/boing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\boing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/boing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\boing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gears.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gears.dir\\gears.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\gears.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/gears.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gears.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gears.dir\\gears.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\gears.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/gears.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gears.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gears.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gears.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gears.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/heightmap.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\heightmap.dir\\heightmap.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\heightmap.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/heightmap.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/heightmap.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\heightmap.dir\\heightmap.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\heightmap.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/heightmap.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/heightmap.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\heightmap.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/heightmap.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\heightmap.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/offscreen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\offscreen.dir\\offscreen.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\offscreen.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/offscreen.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/offscreen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\offscreen.dir\\offscreen.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\offscreen.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/offscreen.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/offscreen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\offscreen.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/offscreen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\offscreen.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\particles.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\particles.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/particles.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\particles.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\particles.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/particles.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\tinycthread.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/tinycthread.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\tinycthread.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/tinycthread.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/particles.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\particles.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/sharing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\sharing.dir\\sharing.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\sharing.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/sharing.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/sharing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\sharing.dir\\sharing.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\sharing.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/sharing.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/sharing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\sharing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/sharing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\sharing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/simple.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\simple.dir\\simple.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\simple.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/simple.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/simple.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\simple.dir\\simple.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\simple.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/simple.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/simple.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\simple.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/simple.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\simple.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/splitview.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\splitview.dir\\splitview.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\splitview.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/splitview.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/splitview.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\splitview.dir\\splitview.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\splitview.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/splitview.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/splitview.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\splitview.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/splitview.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\splitview.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/wave.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\wave.dir\\wave.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\examples\\wave.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/examples/wave.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/wave.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\wave.dir\\wave.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\examples\\wave.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/examples/wave.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/examples",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/wave.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\wave.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/examples",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/wave.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\wave.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\clipboard.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\clipboard.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/clipboard.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\clipboard.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\clipboard.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/clipboard.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/clipboard.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\clipboard.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\events.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\events.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/events.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\events.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\events.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/events.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/events.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\events.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\msaa.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\msaa.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/msaa.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\msaa.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\msaa.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/msaa.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/msaa.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\msaa.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\glfwinfo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\glfwinfo.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/glfwinfo.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\glfwinfo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\glfwinfo.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/glfwinfo.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_vulkan.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_vulkan.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/glfwinfo.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\glfwinfo.dir\\__\\deps\\glad_vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_vulkan.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_vulkan.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\iconify.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\iconify.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/iconify.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\iconify.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\iconify.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/iconify.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/iconify.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\iconify.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\monitors.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\monitors.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/monitors.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\monitors.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\monitors.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/monitors.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/monitors.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\monitors.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/reopen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\reopen.dir\\reopen.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\reopen.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/reopen.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/reopen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\reopen.dir\\reopen.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\reopen.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/reopen.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/reopen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\reopen.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/reopen.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\reopen.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/cursor.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\cursor.dir\\cursor.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\cursor.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/cursor.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/cursor.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\cursor.dir\\cursor.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\cursor.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/cursor.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/cursor.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\cursor.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/cursor.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\cursor.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\empty.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\empty.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/empty.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\empty.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\empty.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/empty.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\tinycthread.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/tinycthread.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\tinycthread.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/tinycthread.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/empty.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\empty.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gamma.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gamma.dir\\gamma.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\gamma.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/gamma.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gamma.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gamma.dir\\gamma.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\gamma.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/gamma.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gamma.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gamma.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/gamma.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\gamma.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/icon.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\icon.dir\\icon.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\icon.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/icon.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/icon.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\icon.dir\\icon.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\icon.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/icon.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/icon.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\icon.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/icon.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\icon.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\inputlag.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\inputlag.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/inputlag.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\inputlag.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\inputlag.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/inputlag.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/inputlag.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\inputlag.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/joysticks.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\joysticks.dir\\joysticks.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\joysticks.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/joysticks.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/joysticks.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\joysticks.dir\\joysticks.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\joysticks.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/joysticks.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/joysticks.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\joysticks.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/joysticks.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\joysticks.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/opacity.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\opacity.dir\\opacity.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\opacity.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/opacity.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/opacity.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\opacity.dir\\opacity.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\opacity.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/opacity.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/opacity.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\opacity.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/opacity.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\opacity.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/tearing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\tearing.dir\\tearing.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\tearing.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/tearing.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/tearing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\tearing.dir\\tearing.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\tearing.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/tearing.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/tearing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\tearing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/tearing.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\tearing.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\threads.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\threads.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/threads.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\threads.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\threads.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/threads.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\tinycthread.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/tinycthread.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\__\\deps\\tinycthread.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\tinycthread.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/tinycthread.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/threads.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\threads.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/timeout.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\timeout.dir\\timeout.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\timeout.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/timeout.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/timeout.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\timeout.dir\\timeout.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\timeout.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/timeout.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/timeout.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\timeout.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/timeout.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\timeout.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/title.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\title.dir\\title.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\title.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/title.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/title.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\title.dir\\title.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\title.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/title.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/title.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\title.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/title.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\title.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/triangle-vulkan.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\triangle-vulkan.dir\\triangle-vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\triangle-vulkan.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/triangle-vulkan.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/triangle-vulkan.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\triangle-vulkan.dir\\triangle-vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\triangle-vulkan.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/triangle-vulkan.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/triangle-vulkan.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\triangle-vulkan.dir\\__\\deps\\glad_vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_vulkan.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_vulkan.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/triangle-vulkan.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\triangle-vulkan.dir\\__\\deps\\glad_vulkan.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_vulkan.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_vulkan.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\windows.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\tests\\windows.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/tests/windows.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\windows.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\tests\\windows.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/tests/windows.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\getopt.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/getopt.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\__\\deps\\getopt.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\getopt.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/getopt.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/glfw/tests",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\glfw\\deps\\glad_gl.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/glfw/deps/glad_gl.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/glfw/tests",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/windows.dir/includes_C.rsp -g -std=gnu99 -o CMakeFiles\\windows.dir\\__\\deps\\glad_gl.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\glfw\\deps\\glad_gl.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/glfw/deps/glad_gl.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\euler.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\euler.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/euler.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\euler.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\euler.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/euler.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\affine.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\affine.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/affine.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\affine.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\affine.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/affine.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\io.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\io.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/io.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\io.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\io.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/io.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\quat.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\quat.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/quat.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\quat.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\quat.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/quat.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\cam.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\cam.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/cam.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\cam.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\cam.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/cam.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec2.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\vec2.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/vec2.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec2.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\vec2.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/vec2.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec3.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\vec3.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/vec3.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec3.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\vec3.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/vec3.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec4.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\vec4.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/vec4.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\vec4.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\vec4.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/vec4.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat2.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\mat2.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/mat2.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat2.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\mat2.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/mat2.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat3.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\mat3.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/mat3.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat3.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\mat3.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/mat3.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat4.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\mat4.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/mat4.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\mat4.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\mat4.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/mat4.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\plane.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\plane.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/plane.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\plane.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\plane.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/plane.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\frustum.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\frustum.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/frustum.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\frustum.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\frustum.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/frustum.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\box.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\box.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/box.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\box.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\box.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/box.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\project.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\project.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/project.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\project.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\project.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/project.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\sphere.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\sphere.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/sphere.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\sphere.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\sphere.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/sphere.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ease.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\ease.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/ease.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ease.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\ease.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/ease.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\curve.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\curve.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/curve.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\curve.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\curve.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/curve.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\bezier.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\bezier.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/bezier.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\bezier.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\bezier.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/bezier.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ray.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\ray.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/ray.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\ray.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\ray.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/ray.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\affine2d.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\affine2d.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/affine2d.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\affine2d.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\affine2d.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/affine2d.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\persp_lh_zo.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/persp_lh_zo.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\persp_lh_zo.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/persp_lh_zo.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\persp_rh_zo.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/persp_rh_zo.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\persp_rh_zo.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/persp_rh_zo.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\persp_lh_no.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/persp_lh_no.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_lh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\persp_lh_no.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/persp_lh_no.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\persp_rh_no.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/persp_rh_no.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\persp_rh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\persp_rh_no.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/persp_rh_no.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\ortho_lh_zo.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/ortho_lh_zo.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\ortho_lh_zo.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/ortho_lh_zo.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\ortho_rh_zo.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/ortho_rh_zo.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\ortho_rh_zo.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/ortho_rh_zo.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\ortho_lh_no.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/ortho_lh_no.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_lh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\ortho_lh_no.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/ortho_lh_no.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\ortho_rh_no.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/ortho_rh_no.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\ortho_rh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\ortho_rh_no.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/ortho_rh_no.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\view_lh_zo.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/view_lh_zo.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\view_lh_zo.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/view_lh_zo.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\view_rh_zo.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/view_rh_zo.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_zo.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\view_rh_zo.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/view_rh_zo.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\view_lh_no.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/view_lh_no.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_lh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\view_lh_no.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/view_lh_no.c"
 },
 {
-  "directory": "C:/Users/snous/OneDrive/Desktop/openGL/build/external/cglm",
-  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\openGL\\external\\cglm\\src\\clipspace\\view_rh_no.c",
-  "file": "C:/Users/snous/OneDrive/Desktop/openGL/external/cglm/src/clipspace/view_rh_no.c"
+  "directory": "C:/Users/snous/OneDrive/Desktop/gengin/build/external/cglm",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DCGLM_EXPORTS -Dcglm_EXPORTS @CMakeFiles/cglm.dir/includes_C.rsp -g -Wall -Werror -O3 -std=gnu11 -o CMakeFiles\\cglm.dir\\src\\clipspace\\view_rh_no.c.obj -c C:\\Users\\snous\\OneDrive\\Desktop\\gengin\\external\\cglm\\src\\clipspace\\view_rh_no.c",
+  "file": "C:/Users/snous/OneDrive/Desktop/gengin/external/cglm/src/clipspace/view_rh_no.c"
 }
 ]

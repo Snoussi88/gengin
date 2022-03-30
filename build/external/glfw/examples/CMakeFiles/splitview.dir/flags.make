@@ -11,7 +11,7 @@ C_FLAGS = -g -std=gnu99
 
 RC_DEFINES = 
 
-RC_INCLUDES = -I C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\deps -I C:\Users\snous\OneDrive\Desktop\openGL\external\glfw\include
+RC_INCLUDES = -I C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\deps -I C:\Users\snous\OneDrive\Desktop\gengin\external\glfw\include
 
 RC_FLAGS = 
 

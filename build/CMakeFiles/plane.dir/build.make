@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\openGL
+CMAKE_SOURCE_DIR = C:\Users\snous\OneDrive\Desktop\gengin
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\openGL\build
+CMAKE_BINARY_DIR = C:\Users\snous\OneDrive\Desktop\gengin\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/plane.dir/depend.make
@@ -72,31 +72,31 @@ CMakeFiles/plane.dir/src/plane.cpp.obj: CMakeFiles/plane.dir/flags.make
 CMakeFiles/plane.dir/src/plane.cpp.obj: CMakeFiles/plane.dir/includes_CXX.rsp
 CMakeFiles/plane.dir/src/plane.cpp.obj: ../src/plane.cpp
 CMakeFiles/plane.dir/src/plane.cpp.obj: CMakeFiles/plane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plane.dir/src/plane.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plane.dir/src/plane.cpp.obj -MF CMakeFiles\plane.dir\src\plane.cpp.obj.d -o CMakeFiles\plane.dir\src\plane.cpp.obj -c C:\Users\snous\OneDrive\Desktop\openGL\src\plane.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/plane.dir/src/plane.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/plane.dir/src/plane.cpp.obj -MF CMakeFiles\plane.dir\src\plane.cpp.obj.d -o CMakeFiles\plane.dir\src\plane.cpp.obj -c C:\Users\snous\OneDrive\Desktop\gengin\src\plane.cpp
 
 CMakeFiles/plane.dir/src/plane.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/plane.dir/src/plane.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\src\plane.cpp > CMakeFiles\plane.dir\src\plane.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\src\plane.cpp > CMakeFiles\plane.dir\src\plane.cpp.i
 
 CMakeFiles/plane.dir/src/plane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/plane.dir/src/plane.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\src\plane.cpp -o CMakeFiles\plane.dir\src\plane.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\src\plane.cpp -o CMakeFiles\plane.dir\src\plane.cpp.s
 
 CMakeFiles/plane.dir/src/glad.c.obj: CMakeFiles/plane.dir/flags.make
 CMakeFiles/plane.dir/src/glad.c.obj: CMakeFiles/plane.dir/includes_C.rsp
 CMakeFiles/plane.dir/src/glad.c.obj: ../src/glad.c
 CMakeFiles/plane.dir/src/glad.c.obj: CMakeFiles/plane.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/plane.dir/src/glad.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plane.dir/src/glad.c.obj -MF CMakeFiles\plane.dir\src\glad.c.obj.d -o CMakeFiles\plane.dir\src\glad.c.obj -c C:\Users\snous\OneDrive\Desktop\openGL\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/plane.dir/src/glad.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plane.dir/src/glad.c.obj -MF CMakeFiles\plane.dir\src\glad.c.obj.d -o CMakeFiles\plane.dir\src\glad.c.obj -c C:\Users\snous\OneDrive\Desktop\gengin\src\glad.c
 
 CMakeFiles/plane.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/plane.dir/src/glad.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\openGL\src\glad.c > CMakeFiles\plane.dir\src\glad.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\snous\OneDrive\Desktop\gengin\src\glad.c > CMakeFiles\plane.dir\src\glad.c.i
 
 CMakeFiles/plane.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plane.dir/src/glad.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\openGL\src\glad.c -o CMakeFiles\plane.dir\src\glad.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\snous\OneDrive\Desktop\gengin\src\glad.c -o CMakeFiles\plane.dir\src\glad.c.s
 
 # Object files for target plane
 plane_OBJECTS = \
@@ -113,7 +113,7 @@ plane.exe: external/glfw/src/libglfw3.a
 plane.exe: CMakeFiles/plane.dir/linklibs.rsp
 plane.exe: CMakeFiles/plane.dir/objects1.rsp
 plane.exe: CMakeFiles/plane.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable plane.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable plane.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\plane.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -125,6 +125,6 @@ CMakeFiles/plane.dir/clean:
 .PHONY : CMakeFiles/plane.dir/clean
 
 CMakeFiles/plane.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\openGL C:\Users\snous\OneDrive\Desktop\openGL C:\Users\snous\OneDrive\Desktop\openGL\build C:\Users\snous\OneDrive\Desktop\openGL\build C:\Users\snous\OneDrive\Desktop\openGL\build\CMakeFiles\plane.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\snous\OneDrive\Desktop\gengin C:\Users\snous\OneDrive\Desktop\gengin C:\Users\snous\OneDrive\Desktop\gengin\build C:\Users\snous\OneDrive\Desktop\gengin\build C:\Users\snous\OneDrive\Desktop\gengin\build\CMakeFiles\plane.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/plane.dir/depend
 
