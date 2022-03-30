@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\cglm.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\cglm.dir/objects.a @CMakeFiles\cglm.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -shared -o libcglm-0.dll -Wl,--out-implib,libcglm.dll.a -Wl,--major-image-version,0,--minor-image-version,8 -Wl,--whole-archive CMakeFiles\cglm.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\cglm.dir\linklibs.rsp
