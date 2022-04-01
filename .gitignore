@@ -42,7 +42,7 @@
 *.idb
 *.pdb
 
-build/*
+#build/*
 
 # Kernel Module Compile Results
 *.mod*
