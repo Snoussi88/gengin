@@ -7,8 +7,18 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "shader.h"
+#include <chrono>
+#include <string>
+#include <sys/time.h>
+#include <ctime>
 
 #include <iostream>
+
+using std::cout; using std::endl;
+using std::chrono::duration_cast;
+using std::chrono::milliseconds;
+using std::chrono::seconds;
+using std::chrono::system_clock;
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow *window);
@@ -87,8 +97,8 @@ int main()
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
     float vertices[] = {
-         -0.5f, -0.5f, 0.0f,
-         0.5f,  -0.5f, 0.0f,
+         -0.5f,-0.5f, 0.0f,
+         0.5f,-0.5f, 0.0f,
          0.5f, 0.5f, 0.0f, 
         -0.5f, 0.5f, 0.0f // left  
         // right 
@@ -124,6 +134,8 @@ int main()
     // -----------
     while (!glfwWindowShouldClose(window))
     {
+        auto time_now = std::chrono::system_clock::now();
+        auto millis = system_clock::now().time_since_epoch().count();
 
 
         float currentFrame = static_cast<float>(glfwGetTime());
@@ -151,15 +163,19 @@ int main()
         glm::mat4 projection    = glm::mat4(1.0f);
         //model = glm::rotate(model, (float)glfwGetTime(), glm::vec3(0.5f, 1.0f, 0.0f));
         projection = glm::perspective(glm::radians(fov), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f,100.0f);
+
+        
         // retrieve the matrix uniform locations
         unsigned int modelLoc = glGetUniformLocation(ourShader.ID, "model");
         unsigned int viewLoc  = glGetUniformLocation(ourShader.ID, "view");
         unsigned int projecLoc = glGetUniformLocation(ourShader.ID, "projection");
+        unsigned int timeLoc = glGetUniformLocation(ourShader.ID, "u_time");
         // pass them to the shaders (3 different ways)
         glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));
         glUniformMatrix4fv(viewLoc, 1, GL_FALSE, &view[0][0]);
         // note: currently we set the projection matrix each frame, but since the projection matrix rarely changes it's often best practice to set it outside the main loop only once.
         glUniformMatrix4fv(projecLoc, 1, GL_FALSE, &projection[0][0]);
+        glUniform1i(timeLoc,millis);
 
         // render box
         glBindVertexArray(VAO);

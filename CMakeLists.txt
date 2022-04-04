@@ -15,6 +15,7 @@ message("root path: ${PROJECT_ROOT}")
 
 add_subdirectory(external/glfw)
 add_subdirectory(external/cglm)
+add_subdirectory(external/assimp)
 
 set(GLAD_SOURCE /src/glad.c)
 
