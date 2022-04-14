@@ -35,7 +35,8 @@ include_directories(
 
 add_executable(tutorial ${PROJECT_SOURCE_DIR}/main.cpp ${PROJECT_SOURCE_DIR}/glad.c ${PROJECT_SOURCE_DIR}/stb_image.h)
 add_executable(plane ${PROJECT_SOURCE_DIR}/plane.cpp ${PROJECT_SOURCE_DIR}/glad.c ${PROJECT_SOURCE_DIR}/stb_image.h)
+add_executable(terrain ${PROJECT_SOURCE_DIR}/terrain_gen.cpp ${PROJECT_SOURCE_DIR}/glad.c ${PROJECT_SOURCE_DIR}/stb_image.h)
 
 target_link_libraries(tutorial glfw)
 target_link_libraries(plane glfw)
-
+target_link_libraries(terrain glfw)
